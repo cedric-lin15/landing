@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media(max-width: 960px) {
+  .container{
+    width: 700px;
+  }
+}
+@media(max-width: 720px) {
+  .container{
+    width: 500px;
+  }
+}
+@media(max-width: 300px) {
+  .container{
+    width: 250px;
+  }
+}
+@media(max-width: 200px) {
+  .container{
+    width: 150px;
+  }
+}

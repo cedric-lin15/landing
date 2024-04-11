@@ -1,0 +1,31 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/background.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+  background-color: #000; 
+}
+
+.banner h1, .banner h2 {
+  margin: 0 0 20px; 
+}
+
+.banner .button {
+  background-color: orange; 
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  margin-top: 20px; 
+}
+
+.banner .button:hover {
+  background-color: rgba(0,0,0,1.0); 
+  color: orange;
+}
